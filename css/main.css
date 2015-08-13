@@ -1,0 +1,199 @@
+body, .top-bar{
+	background: black;
+}
+
+#name, #container, #lightbox_content>img, audio, #putInBasket{
+	position: relative;
+}
+
+.top-bar, #side-logo, .lightbox, .nav-list{
+	position: fixed;
+}
+
+.top-bar{
+	left: -8px;
+    top: 8px;
+	height: 60px;
+	width: 1899px;	
+}
+
+.social-icons{
+	margin-left: 1560px;
+	
+}
+
+.contact{
+	padding-right: 5px;
+	padding-top: 6px;
+}
+
+.checkout{
+	padding-left: 20px;
+	padding-top: 8px;
+	
+}
+
+/* site logo*/ 
+#side-logo{ 
+	height: 200px;
+	margin: 0% 30% 0% 20%;
+	color: white;
+	top: -10px;	
+	left: -370px;
+}
+
+#name{
+	top: -410px;
+	left: 280px;
+}
+
+/* navigation bar */
+.nav-list{
+	margin-left: 1250px;
+	font-size: 20px;
+	top: 62px;
+	left: 245px;
+}
+
+.nav-list li{
+	display: inline;
+	color: white;
+	
+	
+}
+
+.nav-list a{
+	color: white;
+}
+
+/* remove underline from navigation links*/
+a:link{
+	text-decoration: none;
+}
+
+
+
+#container{
+	height: 1450px;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 400px;
+	left: 100px;
+	
+}
+
+.lightbox {
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:rgba(0, 0, 0, .7);
+    text-align:center;
+}
+
+.lightbox_table {
+    width:100%;
+    height:100%;
+    
+}
+
+.lightbox_table_cell {
+    vertical-align:middle;
+}
+
+#lightbox_content{
+	width:810px; 
+	height:570px; 
+	background-color: #E0E0E0; 
+	border:5px solid black;
+	border-radius: 10px;
+}
+
+#close {
+	float: right;
+	position: relative;
+	top: 15px;
+	left: -20px;
+	
+}
+
+#close button {
+	background: black;
+	border: 2px solid black;
+	border-radius: 15%;
+	padding-top: 2px;
+}
+
+#lightbox_content>img{
+	top: 80px;
+	left: 18px;
+	border-radius: 5px;
+}
+
+
+#container>a>img:hover{ 
+    border: 5px solid white;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+   
+}
+
+#container>a>img{
+	border: 5px solid red;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.trackOptions{
+	position: relative;
+	height: 200px;
+	width: 329px;
+	display: inline-block;
+	top: -35px;
+	left: 30px;
+}
+
+#putInBasket{
+	height: 60px;
+	width: 315px;
+	background: #FE2045;
+	display: inline-block;
+	padding: 7px 15px 8px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-bottom: 25px;
+	color: white;
+	font-family: "New York";
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+
+#maybe{
+	height: 60px;
+	width: 315px;
+	background: gray;
+	display: inline-block;
+	padding: 7px 15px 8px;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: white;
+	font-family: "New York";
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#play, #pause, #stop {
+	background: black;
+	border-radius: 15%;
+	margin-right: 5%;
+}
+
+.audioCtrl {
+	position: relative;
+	top: 30px;
+	left: 10px;
+}

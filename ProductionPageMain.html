@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset = "utf-8">
+        <meta name= "description" content="Music prodution for sale">
+        <meta name= "keywords" content="Beats for sale, music production for hire">
+        <title>Ron Rockwell Productions</title>
+        <link rel="shortcut icon" type="image/x-icon" href="Images/16pxRonRockWell.png">
+        <link href="css/ProductionPageMain_Design.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'> 
+        
+    </head>
+    
+    <body>
+        
+        <header>
+        	<div class="top-bar">
+        		<div class="social-icons">
+        	   		<a href="#"><img class="contact" id="facebook" src="images/ImageElements/facebook.png" width="34" height="34"/></a>
+	        		<a href="#"><img class="contact" id="twitter" src="images/ImageElements/twitter.png" width="34" height="34"/></a>
+	        		<a href="#"><img class="contact" id="instagram" src="images/ImageElements/instagram.png" width="34" height="34"/></a>
+	        		<a href="#"><img class="contact" id="pinterest" src="images/ImageElements/pinterest-button.png" width="34" height="34"/></a>
+	        		<a href="#"><img class="contact" id="yo-rockwell" src="images/ImageElements/wordpress.png" width="34" height="34"/></a>
+	       			<a class="checkout" href="#"><img class="checkout" id="shoppingcart" src="images/ImageElements/shopping2.png" width="37" height="37" /></a>    		
+	        	</div>
+        	</div>
+        	
+        	
+        	
+        	<div id="side-logo">
+           		<img src="images/ImageElements/180pxRonRockwell.png">
+        		<div id="name">
+        		<p>Ron Rockwell Production</p> 
+        		</div>
+        	</div>
+	        	
+	        <div id="menu">G
+	        <nav> <!-- navigation begins-->
+			      <ul class="nav-list">
+			       	<li><a href="Main.html">Home</a></li>
+			       	<li>|</li>
+			       	<li><a href="Rockwell-bio.html">Bio</a></li>
+			       	<li>|</li>
+			       	<li><a href="#">Links</a></li>
+			       	<li>|</li>
+			       	<li><a href="#">Contact</a></li>
+			      </ul> 
+	          </nav> <!-- navigation ends -->
+        	</div> <!-- close of nav bar creation -->
+        </header>
+        
+        	
+        	
+	      <div  id="container"> <!--Begining of container -->
+	      	<!-- lightbox -->
+	        <a href="#" onclick="openLightBox('astro')"><img id="astro" src="images/ImageElements/Thumb/220pxAstroLand.png"></a>
+	        <a href="#" onclick="openLightBox('news')"><img id="news" src="images/ImageElements/Thumb/220pxNewsBreak.png"></a>
+			<a href="#" onclick="openLightBox('che')"><img id="che" src="images/ImageElements/Thumb/220pxPatRiot.png"></a>
+	        <a href="#" onclick="openLightBox('riri')"><img id="riri" src="images/ImageElements/Thumb/220pxRI.png"></a>
+	        <a href="#" onclick="openLightBox('wrath')"><img id="wrath" src="images/ImageElements/Thumb/220pxRonWrath.png"></a>
+	        <a href="#" onclick="openLightBox('logo')"><img id="logo" src="images/ImageElements/Thumb/220pxRonRockWell.png"></a>
+	        <a href="#" onclick="openLightBox('girl')"><img id="girl" src="images/ImageElements/Thumb/220px good2 remix.png" width="220" height="220" ></a>
+	        <a href="#" onclick="openLightBox('news2')"><img id="news2" src="images/ImageElements/Thumb/220pxNewsBreak.png"></a>
+	        <a href="#" onclick="openLightBox('astro2')"><img id="astro2" src="images/ImageElements/Thumb/220pxAstroLand.png"></a>
+	        <a href="#" onclick="openLightBox('che2')"><img id="che2" src="images/ImageElements/Thumb/220pxPatRiot.png"></a>
+	        <a href="#" onclick="openLightBox('riri2')"><img id="riri2" src="images/ImageElements/Thumb/220pxRI.png"></a>
+	        <a href="#" onclick="openLightBox('wrath2')"><img id="wrath2" src="images/ImageElements/Thumb/220pxRonWrath.png"></a>
+				<div id="lightbox" class="lightbox" style="display:none" onclick="document.getElementById('lightbox').style.display='none';">
+				   <table class="lightbox_table">
+					 <tr> 
+					   <td class="lightbox_table_cell" align="center"> 
+					      <div id="lightbox_content">
+         					  <img class="positionCover" id="lightBoxImg" src="images/ImageElements/Thumb/220px good2 remix.png" width="420" height="420">
+         					 <button id="putInBasket"><a href="#">I need that</button></div>
+					      	  <audio controls>
+  									<source type="audio/mpeg" id="music" src="sampleMusic/12 - Keep Doin' That (Rich Bitch) [feat. R. Kelly].m4a">
+						      </audio>
+				          </div>
+				    </td>
+				  </tr>
+			   </table>
+			</div>
+	        	
+	        	
+	        	
+	       </div> <!-- end of container -->
+       
+      
+      
+      
+    <script src="scripts/production.js"></script>   
+    </body> <!--End of thumb-buttons -->
+</html>

@@ -1,0 +1,101 @@
+body{
+	background: rgb(186, 193, 196);
+}
+
+.top-bar, #side-logo, #name, .nav-list, #bio{
+	position: relative;
+}
+
+.top-bar{
+	left: -8px;
+    top: -8px;
+	background: grey;
+	height: 60px;
+	width: 1899px;	
+}
+
+.social-icons{
+	margin-left: 1560px;
+	
+}
+
+.contact{
+	padding-right: 5px;
+	padding-top: 12px;
+}
+
+.checkout{
+	padding-left: 20px;
+	padding-top: 8px;
+	
+}
+
+/* site logo*/
+#side-logo{ 
+	height: 200px;
+	width: 60%;
+	background: black;
+	border-radius: 10px;
+	margin: 1% 30% 0% 20%;
+	border: 5px solid red;
+	font-family: 'Shadows Into Light';
+	font-size: 105px;
+	color: white;
+	top: -27px;
+}
+
+#name{
+	top: -320px;
+	left: 200px;
+	
+}
+
+/* navigation bar */
+.nav-list{
+	margin-left: 1250px;
+	font-size: 20px;
+	top: -38px;
+	left: -8px;
+}
+
+.nav-list li{
+	text-align:center;
+	display: inline;
+	color: black;
+	
+}
+
+.nav-list a{
+	color: black;
+}
+
+/* remove underline from navigation links*/
+a:link{
+	text-decoration: none;
+}
+
+h2{
+	font-size: 70px;
+	margin-left: 205px;
+}
+
+section{
+	width: 88%;
+	margin: 0 auto;
+}
+
+.wrap img{
+	float: left;
+	margin: 0px 10px 0px 0px;
+	border: 10px solid red;
+	border-radius: 20px;
+	
+}
+
+#bio{
+	font-size: 30px;
+	text-align:justify;
+	padding-left: 3em;
+	padding-right: 3em;
+	top: -45px;
+}
